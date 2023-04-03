@@ -79,3 +79,6 @@ For Each x In Range([AA2], Cells(Rows.Count, "AA").End(xlUp))
 
 4. Change the value in this part of the code. In this case, 6 refers to column index number (i.e. Column F is 6th column).
 .AutoFilter Field:=6, Criteria1:=x.Value
+
+More details:
+https://www.listendata.com/2015/04/excel-vba-filtering-and-copy-pasting-to.html
