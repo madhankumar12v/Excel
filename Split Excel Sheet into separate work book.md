@@ -2,7 +2,8 @@ To create multiple Excel files each containing a single worksheet using VBA, you
 
 #Copy code
 
-***Sub CreateFiles()
+'''
+Sub CreateFiles()
 
 Dim wb As Workbook
 Dim ws As Worksheet
@@ -26,7 +27,8 @@ For Each ws In ThisWorkbook.Worksheets
 
 Next ws
 
-End Sub***
+End Sub
+'''
 
 *This code will loop through each worksheet in the current workbook and create a new workbook for each one. It will then copy the current worksheet to the new workbook, save the new workbook with the worksheet name as the file name, and close the workbook.
 
