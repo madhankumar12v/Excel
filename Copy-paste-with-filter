@@ -34,16 +34,20 @@ Dim sht As String
 'specify sheet name in which the data is stored
 sht = "DATA Sheet"
 
-'change filter column in the following code
+'change filter column in the following code (F Replace instead of  filter Column name)
 last = Sheets(sht).Cells(Rows.Count, "F").End(xlUp).Row
+
+'set the Range(only add Last Column name example:F)
 Set rng = Sheets(sht).Range("A1:F" & last)
 
+'" F " Replace instead of  filter Column name
 Sheets(sht).Range("F1:F" & last).AdvancedFilter Action:=xlFilterCopy, CopyToRange:=Range("AA1"), Unique:=True
 
 For Each x In Range([AA2], Cells(Rows.Count, "AA").End(xlUp))
 
 With rng
 .AutoFilter
+''" 6 " Replace instead of  filter Column index number
 .AutoFilter Field:=6, Criteria1:=x.Value
 .SpecialCells(xlCellTypeVisible).Copy
 
