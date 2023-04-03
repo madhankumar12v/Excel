@@ -20,11 +20,8 @@ In the following excel macro, it is assumed a filter is applied on column F (Ran
 Excel Macro : Filter and Paste Unique Values to New Sheets
 
 
-
-This macro would filter a column and paste distinct values to the sheets with their respective names. In this case, 
-it creates four worksheets - 1 , 2, 3, 4 as these are unique values in column Rank (column F).
-
-```Sub filter()
+```
+Sub filter()
 Application.ScreenUpdating = False
 Dim x As Range
 Dim rng As Range
