@@ -3,7 +3,8 @@
 #Line 10 here, you need to change the value for the path variable with the folder location 
 where you have all the Excel files that you want to combine
 
-```Sub CopyRange()
+```
+Sub CopyRange()
 
 Dim Path As String
 Dim Filename As String
