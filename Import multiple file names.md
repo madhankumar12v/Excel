@@ -10,7 +10,9 @@ The following VBA code can help you import the file names, file extensions and f
 
 VBA code: Import multiple file names into cells of worksheet
 
+More Details:https://www.extendoffice.com/documents/excel/3166-excel-import-file-names-into-cells.html
 
+#Just Copy and Paste the code
 
 ```
 Sub GetFileList()
