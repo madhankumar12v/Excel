@@ -1,4 +1,4 @@
-### Before Run vba code Filter should Be on
+### Filter should Be on Before Run vba code 
 
 Suppose you are asked to apply filter on a column and paste result of a filter into a new worksheet or workbook and 
 same process goes until all the unique values of the column are covered. In other words, 
